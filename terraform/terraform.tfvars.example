@@ -1,0 +1,12 @@
+aws_region     = "eu-central-1"
+project_name   = "cloud-native-python"
+environment    = "dev"
+instance_type  = "t3.medium"
+
+# IMPORTANT: Replace with your actual SSH public key
+# Generate with: ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+# Get public key: cat ~/.ssh/id_rsa.pub
+ssh_public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC... your-public-key-here"
+
+# Your Docker Hub username
+docker_username = "your-dockerhub-username"
